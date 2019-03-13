@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.taskOne{
+	button{
+	font-family: Arial;
+	font-size: 16px;
+	color: #ccc;
+	padding: 5px 20px;
+	background-color: #3d3d3d;
+	border:none;
+	cursor: pointer;
+	}
+	label{
+	font-family: Arial;
+	font-size: 18px;
+	padding-left: 0px;
+	}
+	input{
+		border: 1px solid #000;
+		font-size: 14px;
+		font-weight: bold;
+		padding: 4px;
+	}
+	ul{
+	margin-top: 10px;
+	li:nth-child(3n + 3){
+		background-color: #3d3d3d;
+		color: #ccc;
+	}
+	li{
+		font-family: Arial;
+		padding: 10px 20px;
+		background-color: #ccc;
+		color: #000;
+		border-bottom: 1px solid #000;
+		label{
+			cursor: pointer;
+		}
+		input{
+			display:none;
+		};
+	}
+	}
+}
+ .lineThrough {
+  text-decoration: line-through;
+
+}
